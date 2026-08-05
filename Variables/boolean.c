@@ -1,15 +1,27 @@
 #include <stdio.h>
+#include <stdbool.h>
 
-int main() {
-  //BOOLEAN
+#include <stdio.h>
+#include <stdbool.h>
 
-  bool isonline = true;
-  bool isoffline = false;
-  bool isaboy = 0;
+int main(void)
+{
+    bool isonline = true;
+    bool isoffline = false;
+    bool isaboy = true;
 
-  printf("Is the user online? %d\n", isonline);
-  printf("Is the user offline? %d\n", isoffline);
-  printf("He is a boy? %d\n", isaboy);
+    printf("Is the user online? %d\n", isonline);
+    printf("Is the user offline? %d\n", isoffline);
+    printf("He is a boy? %d\n", isaboy);
 
-  return 0;
+    if (isonline)
+    {
+        printf("The user is online.\n");
+    }
+    else
+    {
+        printf("The user is offline.\n");
+    }
+
+    return 0;
 }
