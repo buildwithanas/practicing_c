@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(){
-  int age = 17;
+  int age = 18;
   float price = 35.65;
   double pi = 4.477482384885885954;
   char currency = '$';
