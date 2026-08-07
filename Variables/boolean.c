@@ -1,9 +1,6 @@
 #include <stdio.h>
 #include <stdbool.h>
 
-#include <stdio.h>
-#include <stdbool.h>
-
 int main(void)
 {
     bool isonline = true;
