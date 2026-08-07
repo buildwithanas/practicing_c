@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+// FORMAT SPECIFIER ARE SPECIAL TOKENS THAT BEGINS WITH A % SYMBOL AND ARE USED TO SPECIFY THE TYPE OF DATA TO BE PRINTED OR SCANNED IN C PROGRAMMING LANGUAGE.
 int main(){
   int age = 18;
   float price = 35.65;
@@ -13,6 +13,5 @@ int main(){
   printf("%c\n", currency);
   printf("%s\n", name);
 
-
-  return 0;
+  return 0;  
 }
