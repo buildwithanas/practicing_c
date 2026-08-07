@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 int main(){
+  
 //HOW TO SET A PRECISION IN C USING FORMAT SPECIFIER
 
 float price1 = 20.96;
