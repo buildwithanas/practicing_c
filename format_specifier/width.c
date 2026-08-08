@@ -9,10 +9,10 @@ int main(){
   int num3 = 100;
   int num4 = 1000;
 
-  printf("%3d\n", num1);
-  printf("%3d\n", num2);
-  printf("%3d\n", num3);
-  printf("%3d\n", num4);
+  printf("%4d\n", num1);
+  printf("%4d\n", num2);
+  printf("%4d\n", num3);
+  printf("%4d\n", num4);
   
   return 0;
 }
