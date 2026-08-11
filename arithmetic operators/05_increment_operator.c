@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-int main(void)
-{
+int main(void){
+  
   // DECREMENT OPERATOR
 
   int x = 3;
@@ -10,7 +10,7 @@ int main(void)
 
   x-=3;
   x = y / 2;
-  z = y - 3
+  z = y - 3;
 
   printf("%d\n", x);
 
