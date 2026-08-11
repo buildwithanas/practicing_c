@@ -13,5 +13,4 @@ printf("%+8.2f\n", price2);
 printf("%+8.2f\n", price3);
 
 return 0;
-
 }
