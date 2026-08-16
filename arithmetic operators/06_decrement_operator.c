@@ -10,7 +10,7 @@ int main(void){
   x-=3;
   x = y / 2;
 
-  //x = y * 2;
+  y = x * 2;
   x = y / 2;
 
   printf("%d\n", x);
